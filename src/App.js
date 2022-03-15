@@ -23,7 +23,7 @@ function App() {
     axios.post(url, data)
     .then(res =>{
       console.log(res);
-      console.log(res.data)
+      console.log(res.data);
     })
   };
   

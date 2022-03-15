@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Lovefinderzz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Desafio do cupido proposto pela BGC Brasil.
 
-## Available Scripts
+O nome da aplicação foi baseado no desenho Rick and Morty, posteriormente será aplicado o tema devido. 
+A aplicação consiste em um app feito em React que recebe um formulário contendo Email, assunto e corpo do email. Uma função Lambda AWS que recebe o objeto contendo as informações passadas pelo frontend, e uma API Gateway que faz a interface entre o front e o back. O objetivo é enviar anonimamente uma mensagem.
 
-In the project directory, you can run:
 
-### `npm start`
+known Issues: Layout não está no tema Rick and Morty e falta completar a função Lambda de envio de email.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologias utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Amazon S3](https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/Welcome.html)
 
-### `npm test`
+[API Gateway](https://docs.aws.amazon.com/pt_br/pt_br/apigateway/latest/developerguide/welcome.html)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[AWS Lambda](https://docs.aws.amazon.com/pt_br/pt_br/lambda/latest/dg/welcome.html)
 
-### `npm run build`
+[Amazon SES](https://docs.aws.amazon.com/pt_br/pt_br/ses/latest/dg/Welcome.html)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[React.js](https://pt-br.reactjs.org)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Node.js](https://nodejs.org/en/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Python3](https://www.python.org) (Em tentativa anterior de envio de email)
 
-### `npm run eject`
+## Updates Futuros
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Correção dos problemas supracitados
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Uso das tecnologias [DynamoDB](https://docs.aws.amazon.com/dynamodb/index.html) e [Amazon Cognito](https://aws.amazon.com/pt/cognito/) para controle de acesso. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Autor
+[Fábio Gil](https://github.com/f-gil)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[LinkedIn](https://www.linkedin.com/in/fabiogilgomes/)
